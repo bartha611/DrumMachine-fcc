@@ -1,0 +1,45 @@
+#root {
+  width: 250px;
+  margin: auto;
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+  padding: 5px;
+}
+.ButtonPanel {
+  width: 200px;
+  color: white;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 5px;
+}
+.drum-pad{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  border: 0.5px solid white;
+  font-family: sans-serif;
+  background-color: black;
+}
+.drum-pad:hover{
+  background-color: blue;
+}
+.drum-pad:active{
+  background-color: white;
+}
+#display {
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+}
